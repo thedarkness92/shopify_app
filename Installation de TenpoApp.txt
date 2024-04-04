@@ -1,0 +1,23 @@
+/********* Installation de TenpoApp********/
+
+Unzip the file
+
+Configure the .env file and costum file
+
+Npm install
+
+Run Ngrok ==> ngrok http 8000 --scheme http,https
+
+link Ngrok == https://.../auth
+	   == https://.../auth/redirect
+
+
+php artisan migrate	
+
+composer require pragmarx/google2fa-laravel
+
+php artisan vendor:publish --provider="PragmaRX\Google2FALaravel\ServiceProvider"
+
+composer require spatie/laravel-permission
+
+composer require laravel/ui --dev
